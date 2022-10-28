@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <div id="opacity"></div>
+  <header class="header-site">
+    <img id="logo-site" src="images/logo.svg" alt="Logo of site">
+    <img id="btn-open-menu-mobile" src="images/icon-menu.svg" alt="Icon of menu">
+
+    <nav id="menu-mobile-site">
+      <div>
+        <img id="btn-close-menu-mobile" src="images/icon-close-menu.svg" alt="Icon of close">
+      </div>
+  
+      <div id="features-menu-mobile-site">
+        <ul>
+          <li id="features-site">Features</li>
+            <ul id="feature-expand">
+              <li><img src="images/icon-todo.svg" alt="Icon todo list">Todo List</li>
+              <li><img src="images/icon-calendar.svg" alt="Icon calendar">Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="Icon reminders">Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="Icon planning">Planning</li>
+            </ul>
+        </ul>
+      </div>
+  
+      <div id="company-menu-mobile-site">
+        <ul>
+          <li id="company-site">Company</li>
+            <ul id="company-expand">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          <li>Carees</li>
+          <li>About</li>
+        </ul>
+      </div>
+
+      <div class="btns-mobile">
+        <button id="btn-login-site">Login</button>
+        <button id="btn-register-site">Register</button>
+      </div>
+    </nav>
+    
+    <div class="btns-desktop">
+      <button id="btn-login-site">Login</button>
+      <button id="btn-register-site">Register</button>
+    </div>
+  </header>
+  
+  <section class="section-info-site">
+    <div class="section-left"></div>
+
+    <div class="section-right">
+      <h1 class="title-h1-site">Make remote work</h1>
+
+      <p class="paragraph-site">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+
+      <button class="btn-learn-more-site">Learn more</button>
+
+      <div class="logos-site">
+        <img src="images/client-databiz.svg" alt="Image databiz">
+        <img src="images/client-audiophile.svg" alt="Image audiophile">
+        <img src="images/client-meet.svg" alt="Image meet">
+        <img src="images/client-maker.svg" alt="Image maker">
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
